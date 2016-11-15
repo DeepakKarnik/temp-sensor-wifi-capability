@@ -28,7 +28,7 @@ _FOSC (
 _FWDT (     
     WDTPS_PS32768 & 	// Watchdog Timer Postscale Select bits (1:32,768)     
     FWPSA_PR128 &  	 // WDT Prescaler (WDT prescaler ratio of 1:128)     
-    WINDIS_OFF &    		/ Windowed Watchdog Timer Disable bit (Standard WDT selected; windowed WDT disabled)    
+    WINDIS_OFF &    		// Windowed Watchdog Timer Disable bit (Standard WDT selected; windowed WDT disabled)    
     FWDTEN_OFF      		// Watchdog Timer Enable bit (WDT disabled (control is placed on the SWDTEN bit))
 ) 
 
