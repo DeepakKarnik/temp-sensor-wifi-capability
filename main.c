@@ -32,7 +32,7 @@ _FWDT (
     FWDTEN_OFF      		// Watchdog Timer Enable bit (WDT disabled (control is placed on the SWDTEN bit))
 ) 
 
-_FPOR (     
+_FPOR  (     
     BOREN_BOR3 &    	// Brown-out Reset Enable bits (Brown-out Reset enabled in hardware; SBOREN bit disabled)     
     PWRTEN_ON &     	// Power-up Timer Enable bit (PWRT enabled)     
     I2C1SEL_PRI &   		// Alternate I2C1 Pin Mapping bit (Default location for SCL1/SDA1 pins)     
